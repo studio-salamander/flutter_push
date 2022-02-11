@@ -34,10 +34,6 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-    double height = MediaQuery.of(context).size.height;
-    // double topPadding = (height / 100) * 10;
-    // double bottomPadding = (height / 100) * 10;
-
     return Scaffold(
       backgroundColor: const Color(0xFF282E3D),
       body: Stack(
